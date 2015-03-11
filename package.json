@@ -1,0 +1,22 @@
+{
+  "name": "@ali/tianma-rewrite",
+  "version": "0.0.1",
+  "description": "rewrite for tianma",
+  "keywords": [
+    "rewrite"
+  ],
+  "author": "姜天意<tianyi.jiangty@alibaba-inc.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:tianma/tianma-rewrite.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "debug": "~2.1.1",
+    "mini-util": "~1.1.0"
+  }
+}
