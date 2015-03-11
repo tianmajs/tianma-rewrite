@@ -31,3 +31,6 @@ Rewrite some request to remote server.
 		.pipe(rewrite({
 	          'http://www.baidu.com$1': /^(\/file\/.*)/ 
 	      }))
+## 协议 License
+
+https://github.com/tianmajs/tianmajs.github.io/blob/master/LICENSE
