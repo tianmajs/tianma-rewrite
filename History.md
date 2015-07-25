@@ -1,4 +1,3 @@
-0.1.0 / 2015-01-01
-==================
+## 1.0.0 / 2015-07-25
 
-  * complete tianma-rewrite
++ first release

@@ -1,22 +1,33 @@
 {
-  "name": "tianma-rewrite",
-  "version": "0.0.1",
-  "description": "rewrite for tianma",
-  "keywords": [
-    "rewrite"
-  ],
-  "author": "姜天意<tianyi.jiangty@alibaba-inc.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tianmajs/tianma-rewrite.git"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
-  "main": "index.js",
-  "devDependencies": {},
-  "dependencies": {
-    "debug": "~2.1.1",
-    "mini-util": "~1.1.0"
-  }
+    "name": "tianma-rewrite",
+    "description": "Proxy & Redirect middleware for Tianma",
+    "version": "1.0.0",
+    "author": "Nanqiao Deng <nqdeng@gmail.com>",
+    "keywords": [
+        "rewrite",
+        "proxy",
+        "redirect",
+        "middleware",
+        "tianma"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tianmajs/tianma-rewrite.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "mini-util": "~1.1.0"
+    },
+    "devDependencies": {
+        "tianma": "~1.0.0",
+        "mocha": "~2.2.5",
+        "supertest": "~0.15.0"
+    },
+    "engines": {
+        "node": ">=0.12.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --harmony"
+    }
 }
