@@ -1,7 +1,7 @@
 {
     "name": "tianma-rewrite",
     "description": "Proxy & Redirect middleware for Tianma",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Nanqiao Deng <nqdeng@gmail.com>",
     "keywords": [
         "rewrite",

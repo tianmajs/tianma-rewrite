@@ -23,10 +23,10 @@ module.exports = function (rule) {
 		var keys = util.keys(rule);
 		var replacement, pattern, re;
 
-		for (let i = 0, len = keys.length; i < len; ++i) {
+		for (var i = 0, len = keys.length; i < len; ++i) {
 			replacement = keys[i];
 			pattern = rule[replacement];
-			
+
 			if (re = path.match(pattern)) { // Assign.
 				return replacement
 					.replace(PATTERN_REPLACEMENT, function (all, index) {
@@ -68,5 +68,5 @@ module.exports = function (rule) {
 		} else { // Bypass.
 			yield next;
 		}
-	};	
+	};
 };
